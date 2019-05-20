@@ -9,5 +9,5 @@ class User < ApplicationRecord
   VALID_PHONE_REGEX =  ^[+]*[(]{0,1}[0-9]{1,4}[)]{0,1}[-\s\./0-9]*$
   validates :phone, presence: true, length: { is: 10 },
                     format: { with: VALID_PHONE_REGEX },
-                    uniqueness: { case_sensitive: false }    
+                    uniqueness: { case_sensitive: false }    	
 end
