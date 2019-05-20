@@ -10,5 +10,4 @@ class User < ApplicationRecord
   validates :phone, presence: true, length: { is: 10 },
                     format: { with: VALID_PHONE_REGEX },
                     uniqueness: { case_sensitive: false }    
-
 end

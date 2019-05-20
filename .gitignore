@@ -30,6 +30,6 @@
 # Ignore master key for decrypting credentials and more.
 /config/master.key
 
-/db/schema.rb
-
 /Gemfile.lock
+
+/db/schema.rb
