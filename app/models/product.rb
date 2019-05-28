@@ -5,4 +5,5 @@ class Product < ApplicationRecord
   has_many :categores, throught: :product_categories
   has_many :product_categories
   has_many :price, presence: true	
+  validates :user, :price, presence: true	
 end
