@@ -1,9 +1,9 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
 /* mixins, variables, etc. */
 
 $gray-medium-light: #eaeaea;
-
 /* header */
 
 #logo {
@@ -21,7 +21,6 @@ $gray-medium-light: #eaeaea;
   color: #00ff40;
   text-decoration: none;
 }
-
 
 footer {
   margin-top: 45px;
@@ -43,17 +42,4 @@ footer {
     }
   }
 }
-
- /*Slider in home*/
- #myCarousel
- {
-  display: block;
-  margin-top: 100px;
-  padding-top: 10px;
- }
-
-
-
-
-
 

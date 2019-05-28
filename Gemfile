@@ -13,6 +13,7 @@ gem 'bootstrap-sass', '~> 3.4', '>= 3.4.1'
 # bcrypt() is a sophisticated and secure hash algorithm designed by The OpenBSD project for hashing passwords. 
 # The bcrypt Ruby gem provides a simple wrapper for safely handling passwords.
 gem 'bcrypt', '~> 3.1', '>= 3.1.12'
+<<<<<<< HEAD
 # This gem provides jQuery and the jQuery-ujs driver for your Rails 4+ application.
 gem 'jquery-rails', '~> 4.3', '>= 4.3.3'
 # font-awesome-rails provides the Font-Awesome web fonts and 
