@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
+source 'http://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.6.1'
@@ -13,6 +13,20 @@ gem 'bootstrap-sass', '~> 3.4', '>= 3.4.1'
 # bcrypt() is a sophisticated and secure hash algorithm designed by The OpenBSD project for hashing passwords. 
 # The bcrypt Ruby gem provides a simple wrapper for safely handling passwords.
 gem 'bcrypt', '~> 3.1', '>= 3.1.12'
+# This gem provides jQuery and the jQuery-ujs driver for your Rails 4+ application.
+gem 'jquery-rails', '~> 4.3', '>= 4.3.3'
+# font-awesome-rails provides the Font-Awesome web fonts and 
+# stylesheets as a Rails engine for use with the asset pipeline.
+gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.5'
+# Font-Awesome SASS gem for use in Ruby projects
+gem 'font-awesome-sass', '~> 5.8', '>= 5.8.1'
+# Toastr: Simple javascript toast notifications, 
+# plugged into the rails asset pipeline.
+gem 'toastr-rails', '~> 1.0', '>= 1.0.3'
+# A modern responsive front-end framework based on Material Design. https://materializecss.com/
+gem 'materialize-sass', '~> 1.0'
+
+gem "jquery-ui-rails"
 
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'

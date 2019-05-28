@@ -7,17 +7,14 @@
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-    <%= render 'layouts/shim' %>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    
+    <% render 'layouts/shim' %>
   </head>
 
   <body>
     <%= render 'layouts/header' %>
-    <div class="container">
-      <% flash.each do |message_type, messge| %>
-      <div class="alert alert-><%= message_type%>">
-        <%= messge %>
-      </div>
-      <% end %>
+    <div>
     <%= yield %>
     <%= render 'layouts/footer' %>
     </div>
