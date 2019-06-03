@@ -5,55 +5,55 @@
 
 $gray-medium-light: #eaeaea;
 
+h1 {
+  font-size: 3em;
+  letter-spacing: -2px;
+  margin-bottom: 30px;
+  text-align: center;
+  margin-top: 100px;
+
+}
+
+h2 {
+  font-size: 1.2em;
+  letter-spacing: -1px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: normal;
+  color: $gray-light;
+}
+
+p {
+  font-size: 1.1em;
+  line-height: 1.7em;
+}
 /* header */
-* {box-sizing: border-box;}
 
 #logo {
-	float: left;
-	margin-top: 10px;
-	font-size: 1.7em;
-	color: #fff;
-	text-transform: uppercase;
-	letter-spacing: -1px;
-	padding-top: 9px;
-	font-weight: bold;
-	&:hover {
-		color: #fff;
-		text-decoration: none;
-	}
-}
-
-.header {
-  overflow: hidden;
-  background-color: #f1f1f1;
-  padding: 20px 10px;
-}
-
-.header li {
   float: left;
-  color: black;
-  text-align: center;
-  padding: 12px;
-  text-decoration: none;
-  font-size: 18px; 
-  line-height: 25px;
-  border-radius: 4px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  padding-top: 9px;
+  font-weight: bold;
+  &:hover {
+    color: white;
+    text-decoration: none;
+  }
 }
 
-#myCarouse {
-  margin-top: 45px;
-}
-
-
+/* footer */
 footer {
   margin-top: 45px;
   padding-top: 5px;
-  border-top: 1px solid #eaeaea;
-  color: #777;
+  border-top: 1px solid $gray-medium-light;
+  color: $gray-light;
   a {
-    color: #555;
+    color: $gray;
     &:hover {
-      color: #222;
+      color: $gray-darker;
     }
   }
   small {
@@ -69,65 +69,58 @@ footer {
   }
 }
 
-/* sidebar */
-
+/*Sidebar*/
 aside {
   section.user_info {
     margin-top: 20px;
   }
   section {
-    padding: 10px 0;
+    padding: 10px o;
     margin-top: 20px;
     &:first-child {
       border: 0;
-      padding-top: 0;
-    }
-    span {
-      display: block;
-      margin-bottom: 3px;
-      line-height: 1;
-    }
-    h1 {
-      font-size: 1.4em;
-      text-align: left;
-      letter-spacing: -1px;
-      margin-bottom: 3px;
-      margin-top: 0px;
-    }
+      padding-top: 0
   }
+  span {
+    display: block;
+    margin-bottom: 3px;
+    line-height: 1
+  }
+  h1 {
+    font-size: 1.4em;
+    text-align: left;
+    letter-spacing: -1px;
+    margin-bottom: 3px;
+    margin-top: 0px;
+  }
+}
 }
 
 .gravatar {
   float: left;
   margin-right: 10px;
 }
-
 .gravatar_edit {
   margin-top: 15px;
 }
 
-/* forms */
-
+/*Forms*/
 input, textarea, select, .uneditable-input {
   border: 1px solid #bbb;
   width: 100%;
   margin-bottom: 15px;
- 
 }
-
 input {
   height: auto !important;
 }
-
-#error_explanation {
+ #error_explation {
   color: red;
   ul {
     color: red;
     margin: 0 0 30px 0;
   }
-}
-
-.field_with_errors {
+ }
+.field_with_error {
   @extend .has-error;
   .form-control {
     color: $state-danger-text;

@@ -13,11 +13,3 @@
 # 		product = Product.create(name: 'Product' + index_product.to_s, content: 'content here', category_id: category.id)
 # 	end
 # end
-root_category = Category.create(title: 'Information Technology', icon: 'settings', published: true, tag: 0)
-for i in 1..5
-   category = Category.create(title: 'Category ' + i.to_s, parent_id: root_category.id, icon: 'settings', published: true, tag: i)
-   for j in 1..5
-     index_product = i * 10 + j
-     product = Product.create(name: 'Product ' + index_product.to_s, content: 'Content here.', category_id: category.id)
-   end
-end

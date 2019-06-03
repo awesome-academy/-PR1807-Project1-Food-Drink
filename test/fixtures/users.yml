@@ -2,22 +2,12 @@
 
 one:
   name: MyString
+  email: MyString
   address: MyString
-  address2: MyString
-  city: MyString
-  state: MyString
-  country: MyString
-  zipcode: MyString
-  phone: MyString
-  language: MyString
+  phone: 1
 
 two:
   name: MyString
+  email: MyString
   address: MyString
-  address2: MyString
-  city: MyString
-  state: MyString
-  country: MyString
-  zipcode: MyString
-  phone: MyString
-  language: MyString
+  phone: 1
