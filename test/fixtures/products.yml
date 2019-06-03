@@ -2,18 +2,26 @@
 
 one:
   name: MyString
-  price: 1
-  image: MyString
-  description: MyString
-  sale_price: 1
-  sale_count: 1
-  status: MyString
+  content: MyText
+  price: 9.99
+  buyer: 1
+  data_file: MyString
+  manufacturer: MyString
+  category: one
+  published: false
+  tags: MyString
+  language: MyString
+  slug: MyString
 
 two:
   name: MyString
-  price: 1
-  image: MyString
-  description: MyString
-  sale_price: 1
-  sale_count: 1
-  status: MyString
+  content: MyText
+  price: 9.99
+  buyer: 1
+  data_file: MyString
+  manufacturer: MyString
+  category: two
+  published: false
+  tags: MyString
+  language: MyString
+  slug: MyString
